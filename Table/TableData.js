@@ -1,5 +1,5 @@
 import React from 'react';
-import Data from './DataTypes/Data';
+import Data from '../DataTypes/Data';
 
 class TableData extends React.Component {
 	render() {

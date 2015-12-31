@@ -17,17 +17,7 @@ module.exports = {
 				query: {
 					presets: ['es2015', 'react']
 				}
-			},
-			{
-				test: /\.js$/,
-				include: [
-					path.resolve( __dirname, 'DataTypes' ),
-				],
-				loader: 'babel',
-				query: {
-					presets: ['es2015', 'react']
-				}
 			}
-		],
+		]
 	}
 };

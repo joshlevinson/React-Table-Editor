@@ -13,7 +13,7 @@ const Varieties = [
 			}
 		],
 		species: 1,
-		parent: 0,
+		_parent: 0,
 		region: 1,
 	},
 	{
@@ -26,7 +26,7 @@ const Varieties = [
 			},
 		],
 		species: 3,
-		parent: 0,
+		_parent: 0,
 		region: 1,
 	},
 ];
